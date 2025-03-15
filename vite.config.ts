@@ -15,7 +15,7 @@ export default defineConfig(() => ({
 				remote: {
 					type: 'module',
 					name: 'remote',
-					entry: 'http://localhost:4174/remoteEntry.js',
+					entry: 'https://mudulo-federation-vit-react-remote.vercel.app/remoteEntry.js',
 					entryGlobalName: 'remote',
 					shareScope: 'default',
 				},
